@@ -1,0 +1,12 @@
+# Pip install method (recommended)
+
+!pip uninstall ultralytics -y
+!pip install git+https://github.com/ultralytics/ultralytics.git
+
+
+
+from IPython import display
+display.clear_output()
+!pip show ultralytics
+import ultralytics
+ultralytics.checks()
